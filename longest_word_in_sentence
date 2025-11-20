@@ -1,0 +1,9 @@
+sen = "I love dogies puppyy"
+
+sen = sen.split()              # splits the sentence ["I", "love", "dogies", "puppyy"]
+longest = ""
+for i in sen:                  # where i is the word
+    if len(i) > len(longest):
+        longest = i
+
+print(longest)
