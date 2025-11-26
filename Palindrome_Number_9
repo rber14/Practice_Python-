@@ -1,0 +1,30 @@
+# 9. Palindrome Number
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        # if x < 0:
+        #     return False
+        # if x in range(1,10):
+        #     return True
+
+        # original = x
+        # reversed_number = 0
+
+        # while x > 0:
+        #     last_digit = x % 10
+        #     reversed_number = (reversed_number * 10) + last_digit
+        #     x //= 10
+        
+        # return original == reversed_number
+# String Solution space complexity is greater, which is why the above solution is optimal
+        # x = str(x)
+        # length_of_x = len(x)
+
+        # for i in range(length_of_x):
+        #     if x[i] != x[length_of_x - i -1]:
+        #         return False
+        
+        # return True
